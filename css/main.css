@@ -1,0 +1,187 @@
+@media only screen and (max-width: 991.9px) {
+  .main-header h1 {
+    font-size: 30pt !important;
+  }
+  #tools i {
+    font-size: 80px !important;
+  }
+  #tools img {
+    width: 80px !important;
+  }
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  min-height: 2400px;
+}
+
+.btn-custom {
+  background-color: #fc6681;
+  color: white;
+}
+
+.btn-custom:hover {
+  background-color: #fe4f6e;
+  color: white;
+}
+
+.active {
+  background: #fc6681;
+  color: white !important;
+  border-radius: 5px;
+  width: 87px;
+  text-align: center;
+}
+
+#header {
+  margin-bottom: 10em;
+}
+
+#header nav {
+  background-color: white;
+}
+
+#header nav .bg {
+  position: absolute;
+  bottom: 100;
+  left: 100;
+  z-index: -100;
+}
+
+#header nav .navbar-nav {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+#header nav .navbar-nav li {
+  margin-left: 2em;
+}
+
+#header nav .navbar-nav li a {
+  color: #3f3d56;
+  width: 87px;
+  text-align: center;
+}
+
+#header nav .navbar-nav li a:hover {
+  background: #fc6681;
+  color: white !important;
+  border-radius: 5px;
+  width: 87px;
+  text-align: center;
+}
+
+#header nav .navbar-brand {
+  font-weight: bold;
+  font-family: 'Baloo Paaji 2', cursive;
+}
+
+#header .asset {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 90%;
+  height: 100%;
+}
+
+#header .main-header h1 {
+  color: #3f3d56;
+  font-weight: 600;
+  font-size: 50pt;
+}
+
+#header .main-header h1 span {
+  color: #6c63ff;
+}
+
+#header .main-header p {
+  color: #6c63ff;
+}
+
+#header .main-header .hero img {
+  width: 100%;
+}
+
+#about {
+  color: #3f3d56;
+  text-transform: uppercase;
+  margin-bottom: 10em;
+}
+
+#about img {
+  width: 300px;
+}
+
+#about p {
+  color: #3f3d56;
+  font-family: 'Baloo Paaji 2', cursive;
+}
+
+#about p span {
+  font-weight: 400;
+}
+
+#tools {
+  margin-bottom: 10em;
+}
+
+#tools i {
+  font-size: 100px;
+}
+
+#tools .row .col-3 {
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+#project {
+  margin-bottom: 10em;
+}
+
+#project .card-custom {
+  width: 300px;
+  height: 300px;
+  margin-left: 30px;
+}
+
+#contact {
+  margin-bottom: 10em;
+}
+
+footer {
+  background-color: #3f3d56;
+  color: white;
+}
+
+footer i {
+  color: #fc6681;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+section {
+  padding-top: 5em;
+}
+
+.prev-button {
+  position: absolute;
+  top: 50%;
+  left: -6%;
+}
+
+.next-button {
+  position: absolute;
+  top: 50%;
+  right: -6%;
+}
+
+h2 {
+  color: #3f3d56;
+}
+
+h2 span {
+  color: #fc6681;
+}
+/*# sourceMappingURL=main.css.map */

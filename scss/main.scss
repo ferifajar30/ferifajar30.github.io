@@ -1,0 +1,217 @@
+// Variable
+
+$primary_color : #3f3d56;
+$second_color : #6c63ff;
+$third_color : #d0cde1;
+$another_color: #fc6681;
+
+
+
+// Responsive 
+
+@media only screen and (max-width: 991.9px) {
+
+
+    .main-header h1 {
+        font-size: 30pt !important;
+    }
+
+    #tools {
+        i {
+            font-size: 80px !important;
+        }
+
+        img {
+            width: 80px !important;
+        }
+    }
+
+}
+
+
+// main css
+body {
+    font-family: 'Raleway', sans-serif;
+    min-height: 2400px;
+}
+
+.btn-custom {
+    background-color: $another_color;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #fe4f6e;
+    color: white;
+}
+
+.active {
+    background: #fc6681;
+    color: white !important;
+    border-radius: 5px;
+    width: 87px;
+    text-align: center;
+}
+
+
+#header {
+
+    margin-bottom: 10em;
+
+    nav {
+
+        background-color: white;
+
+        .bg {
+            position: absolute;
+            bottom: 100;
+            left: 100;
+            z-index: -100;
+        }
+
+        .navbar-nav {
+            text-transform: uppercase;
+            font-weight: 400;
+
+            li {
+                margin-left: 2em;
+
+                a {
+                    color: $primary_color;
+                    width: 87px;
+                    text-align: center;
+                }
+
+                a:hover {
+                    background: #fc6681;
+                    color: white !important;
+                    border-radius: 5px;
+                    width: 87px;
+                    text-align: center;
+                }
+            }
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            font-family: 'Baloo Paaji 2', cursive;
+        }
+    }
+
+    .asset {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 90%;
+        height: 100%;
+    }
+
+    .main-header {
+        h1 {
+            color: $primary_color;
+            font-weight: 600;
+            font-size: 50pt;
+
+            span {
+                color: $second_color;
+            }
+        }
+
+        p {
+            color: $second_color;
+        }
+
+        .hero {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+#about {
+    color: $primary_color;
+    text-transform: uppercase;
+    margin-bottom: 10em;
+
+    img {
+        width: 300px;
+    }
+
+    p {
+        color: $primary_color;
+        font-family: 'Baloo Paaji 2', cursive;
+
+        span {
+            font-weight: 400;
+        }
+    }
+}
+
+#tools {
+    margin-bottom: 10em;
+
+    i {
+        font-size: 100px;
+    }
+
+    .row .col-3 {
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+
+
+}
+
+#project {
+    margin-bottom: 10em;
+
+    .card-custom {
+        width: 300px;
+        height: 300px;
+        margin-left: 30px;
+    }
+
+}
+
+#contact {
+    margin-bottom: 10em;
+}
+
+
+footer {
+    background-color: $primary_color;
+    color: white;
+
+    i {
+        color: $another_color;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+section {
+    padding-top: 5em;
+}
+
+.prev-button {
+    position: absolute;
+    top: 50%;
+    left: -6%;
+}
+
+.next-button {
+    position: absolute;
+    top: 50%;
+    right: -6%;
+}
+
+h2 {
+    color: $primary_color;
+
+    span {
+        color: $another_color;
+    }
+}
