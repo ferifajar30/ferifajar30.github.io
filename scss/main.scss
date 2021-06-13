@@ -12,6 +12,16 @@ $another_color: #fc6681;
 @media only screen and (max-width: 991.9px) {
 
 
+    nav {
+        ul {
+            li a {
+                margin-left: 0 !important;
+                text-align: center;
+                width: 100% !important;
+            }
+        }
+    }
+
     .main-header h1 {
         font-size: 30pt !important;
     }
