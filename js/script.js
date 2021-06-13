@@ -43,7 +43,7 @@ $('.carousel').slick({
 AOS.init();
 
 // GSAP
-gsap.registerPlugin(TextPlugin,ScrollTrigger);
+gsap.registerPlugin(TextPlugin);
 gsap.to('.main-header .my-name', {duration:1,delay:1.5, text:'Feri Fajar'});
 gsap.to('.main-header .lead', {duration:2,delay:2.5, text:"i'm a web developer"});
 gsap.from('.navbar', {duration: 1.5, y:'-100%', opacity: 0, ease:'bounce'});
