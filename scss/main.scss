@@ -20,6 +20,14 @@ $another_color: #fc6681;
                 width: 100% !important;
             }
         }
+
+        .navbar-toggler {
+            margin-bottom: 10px;
+
+            i {
+                color: $another_color;
+            }
+        }
     }
 
     .main-header h1 {

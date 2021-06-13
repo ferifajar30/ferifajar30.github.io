@@ -4,6 +4,12 @@
     text-align: center;
     width: 100% !important;
   }
+  nav .navbar-toggler {
+    margin-bottom: 10px;
+  }
+  nav .navbar-toggler i {
+    color: #fc6681;
+  }
   .main-header h1 {
     font-size: 30pt !important;
   }

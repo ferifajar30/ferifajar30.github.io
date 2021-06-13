@@ -80,3 +80,18 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycby_pFJTnslM2XKdilMRZv
       .catch(error => console.error('Error!', error.message))
   })
 
+
+  // var sections =document.querySelectorAll('section');
+  // onscroll = function() {
+  //   var scrollPosition = document.documentElement.scrollTop;
+
+  //   sections.forEach( section => {
+  //     if (scrollPosition >= section.offsetTop && scrollPosition < section.offsetTop + section.offsetHeight) {
+  //       var currentId = section.attributes.id
+  //       removeAllActiveClasses();
+  //       addActiveClasses(currentId);
+
+  //     }
+  //   })
+  // }
+
